@@ -1,3 +1,5 @@
+![](Morkborg_Title.png)
+
 # Quart Borg: Quarto slide theme for Reveal.js
 
 This [Mork Borg](https://morkborg.com/)-inspired slide theme was built for 
@@ -5,11 +7,17 @@ This [Mork Borg](https://morkborg.com/)-inspired slide theme was built for
 slides with the color scheme from an unhealthily apocalyptic and metal tabletop 
 role-playing game.
 
+![](Morkborg_Style.png)
+
 The theme started as a joke and got out of hand. See, I saw [Emil Hvitfeldt's 
 posit::conf talk](https://emilhvitfeldt.github.io/talk-quarto-theming-positconf/#/section) 
 on building custom slide templates and decided to try it out. Eventually the 
 Mork Borg visual scheme came to mind and I had a good inner-laugh. And laughed 
 some more. And started building it.
+
+![](Grobkrom_Title.png)
+
+![](Grobkrom_Style.png)
 
 You have four versions of the theme to choose from:
   - `{.morkborg}`: Black on yellow
@@ -23,20 +31,28 @@ Each has a matching title slide style
   - `{.cyborg-title-slide}`
   - `{.grobyc-title-slide}`
 
+![](Cyborg_Title.png)
+
 Now let's be perfectly clear: You really shouldn't use this template. It's 
 actually quite jarring and obnoxious, but it's also still kind of tempting to 
 show off.
 
 But you shouldn't. I mean, it's not 100% colorblind friendly.
 
+![](Cyborg_Style.png)
+
 But you still wanna. Even though it could leave you or your audience with some 
 eye strain.
 
 Yet you're still considering using it. Do you hate this audience?
 
+![](Grobyc_Title.png)
+
 To apply a theme -- I can't believe you're seriously considering this -- append 
 one of the above tags at the end of your slide title. Hit Render and it should 
 show up.
+
+![](Grobyc_Style.png)
 
 ## How to install
 
@@ -61,6 +77,3 @@ quarto use template morrisLuke/quart_borg
 ```
 
 Then, please seek help.
-# quart_borg
-# quart_borg
-# quart_borg
