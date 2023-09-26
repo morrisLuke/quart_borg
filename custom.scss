@@ -1,0 +1,200 @@
+/*-- scss:defaults --*/
+$theme-black: #000000;
+$theme-yellow: #FFE900;
+$theme-white: #F7F8F9;
+$theme-pink: #FF3EB5;
+$theme-red: #E94141;
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+$font-family-sans-serif: 'Amaranth', 'Inconsolata', sans-serif;
+$font-family-serif: 'Metal Mania', 'Frijole', serif;
+$font-family-monospace: 'Inconsolata', sans-serif;
+
+/*-- scss:rules --*/
+
+.callout {
+   background-color: #FFFFFF;
+ }
+
+.callout-caption {
+   color: $body-color;
+}
+
+.morkborg-title-slide {
+  color: $theme-black;
+  font-family: 'Metal Mania', serif;
+  
+  .slide-background-content{
+    background-color: $theme-yellow;
+  }
+  
+}
+
+.morkborg {
+  color: $theme-black;
+
+  a {
+    color: $theme-black;
+    background-color: $theme-white;
+  }
+
+  a:hover {
+    color: $theme-yellow;
+    background-color: $theme-black;
+  }
+
+  h1, h2, h3, h4, h5  {
+    color: $theme-black;
+    font-family: $font-family-serif;
+  }
+
+  .slide-background-content {
+    background-color: $theme-yellow;
+  }
+
+  pre code {
+    color: $theme-yellow;
+    background-color: $theme-black;
+  }
+}
+
+.grobkrom-title-slide {
+  color: $theme-yellow;
+  font-family: 'Metal Mania', serif;
+  
+  .slide-background-content{
+    background-color: $theme-black;
+  }
+  
+}
+
+.grobkrom {
+  color: $theme-yellow;
+
+  a {
+    color: $theme-white;
+    background-color: $theme-black;
+  }
+
+  a:hover {
+    color: $theme-yellow;
+    background-color: $theme-black;
+  }
+
+  h1, h2, h3, h4, h5  {
+    color: $theme-yellow;
+    font-family: $font-family-serif;
+  }
+
+  .slide-background-content {
+    background-color: $theme-black;
+  }
+
+  pre code {
+    color: $theme-black;
+    background-color: $theme-yellow;
+  }
+}
+
+.cyborg-title-slide {
+  color: $theme-pink;
+  font-family: 'Metal Mania', serif;
+  
+  .slide-background-content{
+    background-color: $theme-black;
+  }
+}
+
+.cyborg {
+  color: $theme-pink;
+
+  a {
+    color: $theme-white;
+    background-color: $theme-black;
+  }
+
+  a:hover {
+    color: $theme-pink;
+    background-color: $theme-black;
+  }
+
+  h1, h2, h3, h4, h5  {
+    color: $theme-pink;
+    font-family: $font-family-serif;
+  }
+
+  .slide-background-content {
+    background-color: $theme-black;
+  }
+
+  pre code {
+    color: $theme-black;
+    background-color: $theme-pink;
+  }
+}
+  
+.grobyc-title-slide {
+  color: $theme-black;
+  font-family: 'Metal Mania', serif;
+  
+  .slide-background-content{
+    background-color: $theme-pink;
+  }
+  
+}
+
+.grobyc {
+  color: $theme-black;
+
+  a {
+    color: $theme-black;
+    background-color: $theme-white;
+  }
+
+  a:hover {
+    color: $theme-pink;
+    background-color: $theme-black;
+  }
+
+  h1, h2, h3, h4, h5  {
+    color: $theme-black;
+    font-family: $font-family-serif;
+  }
+
+  .slide-background-content {
+    background-color: $theme-pink;
+  }
+
+  pre code {
+    color: $theme-pink;
+    background-color: $theme-black;
+  }
+}
+
+.accentBlack {
+  color: $theme-black;
+}
+
+.accentYellow {
+  color: $theme-yellow;
+}
+
+.accentWhite {
+  color: $theme-white;
+}
+
+.accentPink {
+  color: $theme-pink;
+}
+.accentRed {
+  color: $theme-red;
+}
+
+.reveal .slide a {
+  text-decoration: underline;
+}
+

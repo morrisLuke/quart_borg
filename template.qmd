@@ -1,0 +1,69 @@
+---
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+---
+
+# {.morkborg-title-slide}
+::: r-fit-text
+QUART BORG
+:::
+
+## \{.morkborg\} style {.morkborg}
+
+Quarto enables you to weave together [content]{.accentPink} and executable code into a [finished]{.accentRed} document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+print("asdfasdfasdf")
+print("asdfasdf")
+```
+
+# {.grobkrom-title-slide}
+::: r-fit-text
+QUART BORG
+:::
+
+## \{.grobkrom\} style {.grobkrom}
+
+#### (see what I did there?) {.grobkrom}
+
+Quarto enables you to weave together [content]{.accentPink} and executable code into a [finished]{.accentRed} document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+print("asdfasdfasdf")
+print("asdfasdf")
+```
+
+# {.cyborg-title-slide}
+::: r-fit-text
+QUART BORG
+:::
+
+## \{.cyborg\} style {.cyborg}
+
+Quarto enables you to weave together [content]{.accentWhite} and executable code into a [finished]{.accentYellow} document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+print("asdfasdfasdf")
+print("asdfasdf")
+```
+
+# {.grobyc-title-slide}
+::: r-fit-text
+QUART BORG
+:::
+
+## \{.grobyc\} style {.grobyc}
+
+#### ... and I've officially over-committed to the bit
+
+Quarto enables you to weave together [content]{.accentWhite} and executable code into a [finished]{.accentYellow} document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+print("asdfasdfasdf")
+print("asdfasdf")
+```
